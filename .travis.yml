@@ -1,16 +1,16 @@
 language: go
 
 go:
-- tip
+  - tip
 
 script:
-- make build
+  - make build
 
 deploy:
   provider: releases
   api_key:
-    secure: "tANJ68SVi3RmhpLoYsSm4504WncKvB3kKQ880NP0mVZME3P64ecAgwmcCjs5MUtAbrs1tHB+G1rzimRpuSusP2BvJI3C5tWNg94VBstT6SRhb+D3FmbZ4NKjYU18hDC0Hps9kUNRci9xUg4A4s7oe+ZjxirWXqCpzHMFf/+goLwd0fm1p3fm06CiPtmXj3VMWdDLxCer30zyRTdqy8cOHbthbfDKLKxrYoig7KSVUaokUxj6VGv1AALQj/YGh+tqCVsRIWv3OmRYPg9MGb57VyOfUFPOZ3xnY0CdOgROyrORtP7hebHSA0iiF4NSM8mnJS9NHLLeX4MyEb4N5kutI+RnlbjXnoUbcV+2+T2Q3J5GjgULPF0+8XHcKcW4PzwDUIqm1QsXb0Rn7zDe/ztxWipLDiwzzSpO/WVRLDbNaKClM2EQQ0S7BJEsSh17u8W5H4hYVHP4aFpV4R8VJ9j84+tr/BK5K8F69Rh0a4jNQ9Ar5kquqePYTAF8NJ6/3DprXv7e8P3loiUo4GRLkuS9nxRcYW32gsfwbeQnm1OGX3A0hvcKsS1kjtfWu/Ltv1ywPc0hoFTpEVxdwpc61W+B3VmPugyBW7f+gjv0ESV4MHsWUsLgK3NX7wyRYqMRD2cqqfnyb9aiMqo/lEvPhJsv2rsYstBwdSkAiGm8Sb/h1S8="
-  file: "whats-my-ip"
+    secure: "nvO1leXfDfQgmq6eA75dWkz+PXN/r/eRl1cAVKziiaNC7vA4BK4KmdV2/WgZ2Z4rDTA7b2PPqhQUcYy/9NMdCrHwtjNhcFFpiI0R/SugqS+ApRR1CYtcurIKCRRIPOgyVo/Lg9k/soSmfGf9NUU2Xc/af2rYqZavjbJLbB3coD/DFp8chB75m3krsxLBGhxursHCBuzkcgasI4QY0GaTKYDQ+I8dixDH8tLrKdBS/OVbKdakHN2Ie+DTCGRcXc0Msd9EAGD9Ul/XuzYzajmxoF3mbVJ/XO+kOv1GzMfgsSmW7wxLkRLEfVs75ut4F5u/il4xSFbn1lc2UATBOjJp9ctpu/QSDcIsbAXs0h34nIIqTVLz+ehnCOw+pv6tbGgcccngSlH5kRVOO0zm/IEjmhAwu6rMHeq3ng6jWNHDpRIilvI+nJ5zOL7FNzrfP01KtF9zESwWp8gR4gu8pHo6H62m+ukgQDQk2Wt+t3dQAgklayMGufTnp8oSGsWBCO4t/r+P7U2y8LhpoyGO4UGBgDy4jKE0dwII2mFRVWTlgjw/iZFK4CXkeu89bNjrtZhVNwAE9tB5rsefP1p4sa5Mw1T3qpvp1CxzOslZ9I+BeGqI3E0aSe+XGSv1vniud5zehRk1kc75DZ5+xTORer7P1NlPB7pZIhB8nkL0ElwBxOQ="
+  file: whats-my-ip"
   skip_cleanup: true
   on:
     tags: true
