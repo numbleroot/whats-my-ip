@@ -16,4 +16,4 @@ Usage of ./whats-my-ip:
 
 ## License
 
-This project is [GPLv3](https://git.wirelab.org/lenny/whats-my-ip/src/master/LICENSE) licensed.
+This project is [GPLv3](https://github.com/numbleroot/whats-my-ip/blob/master/LICENSE) licensed.
